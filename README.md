@@ -26,13 +26,13 @@ how to use
 使用方法  
 
 1.直接使用已训练好的模型  
-将 ini 波形数据文件放在 data_origin 目录下。  
-运行 cls_model.py 文件并在 classified_data 中查看结果。  
+① 将 ini 波形数据文件放在 data_origin 目录下。  
+② 运行 cls_model.py 文件并在 classified_data 中查看结果。  
 ③ 如果要删除已分类波形文件的预览图像，可以运行 del_png.py。  
 
 2.执行自己的模型训练  
-将已分类的待训练数据（只需 ini 文件）放入数据目录下的 0、1 文件夹。注：0 为低噪声波形，1 为高噪声波形。  
-运行 label2csv.py 会生成 labeled_files.csv，该文件包含所有 ini 文件的波形特征标签数据。  
+① 将已分类的待训练数据（只需 ini 文件）放入数据目录下的 0、1 文件夹。注：0 为低噪声波形，1 为高噪声波形。  
+② 运行 label2csv.py 会生成 labeled_files.csv，该文件包含所有 ini 文件的波形特征标签数据。  
 ③ 运行 train.py，等待一段时间检查模型的评估结果，得到模型文件 classifier.joblib。  
 ④ 重新执行 "1.直接使用已训练好的模型"。  
 
