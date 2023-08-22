@@ -1,5 +1,5 @@
 # Waveform_Classification  
-A program to classify ini waveform files by their waveform feature.  
+A program that uses machine learning to classify ini waveform files based on waveform features.    
 
 how to use  
 
@@ -21,7 +21,7 @@ how to use
 
 
 # 波形分类  
-根据波形特征对 ini 波形文件进行分类的程序。  
+使用机器学习，根据波形特征对 ini 波形文件进行分类的程序。   
 
 使用方法  
 
